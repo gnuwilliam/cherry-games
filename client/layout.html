@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CherryPy Games</title>
+        <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+        <link rel="stylesheet" type="text/css" href="/static/css/vendor/loader.css">
+    </head>
+
+    <body>
+        {% block body %}
+        {% endblock %}
+        <script type="text/javascript" src="/static/js/vendor/jquery-2.2.4.min.js"></script>
+        <script type="text/javascript" src="/static/js/gameForm.js"></script>
+
+        <script type="text/javascript">
+            let gameForm = new GameForm('gameForm', '/game/platform');
+            $(gameForm.formId).on('submit', (e) => {
+                e.preventDefault();
+                gameForm.submit();
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,132 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Avenir Next', sans-serif;
+}
+
+body .container {
+    max-width: 980px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+body .home {
+    padding: 20px 0;
+}
+
+body h1 {
+    color: #666;
+    padding: 0;
+    margin: 0 auto;
+    display: table;
+}
+
+body form {
+    padding: 10px 0;
+    padding-bottom: 0;
+    flex-direction: row;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+body input {
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+    margin: 5px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #DDD;
+    box-sizing: border-box;
+    font-family: 'Avenir Next', sans-serif;
+    font-size: 12px;
+}
+
+body input:hover {
+    // border-bottom: 1px solid blue;
+}
+
+body input:focus {
+    outline: none;
+    border-bottom: 1px solid #673AB7;
+
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+body .btn-group {
+    width: 100%;
+    display: block;
+    text-align: right;
+}
+
+body button {
+    display: inline-block;
+    margin: 5px 0;
+    margin-bottom: 0;
+    border: none;
+    padding: 7px 15px;
+    cursor: pointer;
+    background: #673AB7;
+    color: #FFF;
+    border-radius: 3px;
+    font-family: 'Avenir Next', sans-serif;
+    font-size: 12px;
+    outline: none;
+
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+body button:hover {
+    background: #673AB7;
+    color: #CAACFF;
+    border-radius: 3px;
+    box-shadow: inset 0 0 35px #331C5D;
+
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+body hr {
+    margin: 20px auto;
+    max-width: 300px;
+    border: 1px solid #DDD;
+}
+
+body .result {
+    margin: 0 auto;
+    display: block;
+    max-width: 300px;
+    background: #673AB7;
+    color: #FFF;
+    padding: 15px;
+    box-sizing: border-box;
+    box-shadow: inset 0 0 35px #331C5D, 0 3px 15px rgb(169, 169, 169);
+    font-size: 14px;
+    border: 2px solid #FFF;
+    border-radius: 5px;
+}
+
+body .result span {
+    display: block;
+    margin-bottom: 10px
+}
+
+body .result span:last-child {
+    margin-bottom: 0;
+}
+
+body .result b {
+    color: #CAACFF;
+    font-weight: 500;
+}

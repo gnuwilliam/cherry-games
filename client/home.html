@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block body %}
+    <div class="container">
+        <div class="home">
+            <h1>CherryPy Games</h1>
+
+            <form id="gameForm">
+                <input type="text" name="name" placeholder="Type the game title..." required />
+                <input type="text" name="platform" placeholder="Type the game platform..."/>
+                <div class="btn-group">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+
+            <hr/>
+
+            <div class="result">
+                <span>Please submit the form</span>
+            </div>
+        </div>
+    </div>
+{% endblock %}
